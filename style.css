@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+}
+
+.perfume {
+    width: 750px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    margin: 25% 25% 25% 25%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.perfume img {
+    width: 400px;
+    height: 550px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 20px;
+}
+
+.perfume input {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 20px 110px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.perfume input:hover{
+    background-color: greenyellow;
+}
+
+.price {
+    font-size: 40px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.old_price {
+    text-decoration: line-through;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.perfume_text h1 {
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.perfume_text {
+    margin-right: 20px ;
+}
+
+@media (max-width:375px){
+    .perfume input {
+        background-color: red;
+    }
+}
